@@ -1,0 +1,24 @@
+// QUESTÃO 9
+algoritmo "questao9"
+var
+m: vetor[1..4,1..4] de inteiro
+i, j, maior: inteiro
+inicio
+para i de 1 ate 4 faca
+para j de 1 ate 4 faca
+leia(m[i,j])
+fimpara
+fimpara
+
+maior <- m[1,1]
+
+para i de 1 ate 4 faca
+para j de 1 ate 4 faca
+se m[i,j] > maior entao
+maior <- m[i,j]
+fimse
+fimpara
+fimpara
+
+escreval("Maior valor = ", maior)
+fimalgoritmo

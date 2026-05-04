@@ -1,0 +1,18 @@
+// QUESTÃO 5
+algoritmo "questao5"
+var
+v: vetor[1..10] de inteiro
+i, cont: inteiro
+inicio
+cont <- 0
+
+para i de 1 ate 10 faca
+leia(v[i])
+
+se v[i] mod 2 = 0 entao
+cont <- cont + 1
+fimse
+fimpara
+
+escreval("Quantidade de pares = ", cont)
+fimalgoritmo

@@ -1,0 +1,20 @@
+// QUESTÃO 8
+algoritmo "questao8"
+var
+m: vetor[1..3,1..3] de inteiro
+i, j, soma: inteiro
+inicio
+soma <- 0
+
+para i de 1 ate 3 faca
+para j de 1 ate 3 faca
+leia(m[i,j])
+fimpara
+fimpara
+
+para i de 1 ate 3 faca
+soma <- soma + m[i,i]
+fimpara
+
+escreval("Soma da diagonal = ", soma)
+fimalgoritmo

@@ -1,0 +1,16 @@
+// QUESTÃO 2
+algoritmo "questao2"
+var
+   v: vetor[1..5] de real
+   i: inteiro
+   soma: real
+inicio
+   soma <- 0
+
+   para i de 1 ate 5 faca
+      leia(v[i])
+      soma <- soma + v[i]
+   fimpara
+
+   escreval("Soma = ", soma)
+fimalgoritmo
